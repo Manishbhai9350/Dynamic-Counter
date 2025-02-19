@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="count-factors">
+        <div class="factor">
+          <input class="increment-factor-input" value="1" type="number" />
+        </div>
+        <div class="factor">
+          <input class="decrement-factor-input" minlength="0" max="9999" value="1" type="number" />
+        </div>
+      </div>
+      <div class="counter">
+        <div class="box">
+          <div class="nums">
+            <div class="num">
+              <p>0</p>
+            </div>
+            <div class="num">
+              <p>1</p>
+            </div>
+            <div class="num">
+              <p>2</p>
+            </div>
+            <div class="num">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="buttons">
+        <div class="increment button">
+          <p>increment</p>
+        </div>
+        <div class="dcrement button">
+          <p>dcrement</p>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
