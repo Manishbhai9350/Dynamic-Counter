@@ -1,6 +1,6 @@
 # Dynamic Counter
 
-( <a style='color:skyblue' href='https://text-grid-shader.onrender.com/' >View Live</a> )
+( <a style='color:skyblue' href='https://manishbhai9350.github.io/Dynamic-Counter/' >View Live</a> )
 
 A dynamic counter that provides an engaging and interactive experience with real-time updates and smooth animations.
 
