@@ -57,6 +57,14 @@ function UpdateCounter(n = 0) {
 
 UpdateCounter(Count);
 
+function GetCount(n){
+  let Countes = []
+  for (let i = 1; i <= n; i++) {
+    Countes.push(9)
+  }
+  return Number(Countes.join(''))
+}
+
 IncrementFactorInp.addEventListener('input', e => {
   if(e.target.value.length > Boxes.length) {
     e.target.value = Factors.increment
@@ -74,6 +82,7 @@ DecrementFactorInp.addEventListener('input', e => {
 
 IncrementButton.addEventListener('click',e => {
     Count += Factors.increment
+    Count = Count.toString().length > Boxes.length ? GetCount(Boxes.length) : Count
     UpdateCounter(Count)
 })
 DcrementButton.addEventListener('click',e => {
